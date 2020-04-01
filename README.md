@@ -200,7 +200,7 @@ Steps:
 My IP address: `111.65.56.89`
 
 > **https://www.uptrends.com/tools/traceroute**  
-> Test: `111.65.56.89`
+> Test: `111.65.56.89`  
 > From: `72.9.99.137` (New York)
 > 
 > | Step | Time | Time | Time | Hostname                                  | IP address      |
@@ -232,8 +232,8 @@ My IP address: `111.65.56.89`
 > | 25   | -    | -    | -    |                                           |                 |
 
 > **macOS traceroute**  
-> Test: `72.9.99.137` (New York) 
-> From: `111.65.56.89` 
+> Test: `72.9.99.137` (New York)  
+> From: `111.65.56.89`
 > ```
 > traceroute to 72.9.99.137 (72.9.99.137), 64 hops max, 52 byte packets
 >  1  192.168.43.1 (192.168.43.1)  4.400 ms  2.016 ms  1.492 ms
@@ -293,7 +293,7 @@ My IP address: `111.65.56.89`
 > ```
 
 > **https://www.uptrends.com/tools/traceroute**  
-> Test: `111.65.56.89`
+> Test: `111.65.56.89`  
 > From: `5.182.210.1` (Amsterdam)
 > 
 > | Step | Time | Time | Time | Host name                      | IP address      |
@@ -325,7 +325,7 @@ My IP address: `111.65.56.89`
 > | 25   | -    | -    | -    |                                |                 |
 
 > **macOS traceroute**  
-> Test: `5.182.210.1` (Amsterdam)
+> Test: `5.182.210.1` (Amsterdam)  
 > From: `111.65.56.89`
 > ```
 > traceroute to 5.182.210.1 (5.182.210.1), 64 hops max, 52 byte packets
@@ -395,7 +395,7 @@ My IP address: `111.65.56.89`
 > | 25   | -    | -    | -    |                                            |                 |
 
 > **macOS traceroute**  
-> Test: `31.204.145.130` (Tokyo)
+> Test: `31.204.145.130` (Tokyo)  
 > From: `111.65.56.89`
 > ```
 > traceroute to 31.204.145.130 (31.204.145.130), 64 hops max, 52 byte packets
