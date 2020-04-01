@@ -464,7 +464,7 @@ My IP address: `111.65.56.89`
   - This implies that the outgoing traffic was higher than the incoming traffic at the time.
   - Perhaps this is due to increased usage during the day in Amsterdam, especially because of increased stay-at-home measures in this COVID-19 season.
 
-- For the Tokyo traceroute, the macOS traceroute failed miserably as it was not able to even reach `129.250.*.*`–where the uptrends traceroute passed through between steps 3 to 7.
+- For the Tokyo traceroute, the macOS traceroute failed miserably as it was not even able to reach `129.250.*.*`, where the uptrends traceroute passed through between steps 3 and 7.
   - The macOS traceroute took a long detour to routers in America as seen in the host names **if-ae-2-2.tcore1.pdi-palo-alto.as6453.net** and **if-ae-0-2.tcore1.sv1-santa-clara.as6453.net**.
   - In the process, it incurred long delays of up to 1364.502 ms. This is caused by propagation delay from the packet being sent across the Pacific Ocean.
   - This behavior is likely caused by some misconfigured routers at `203.208.*.*`, which were unable to find `129.250.*.*` successfully.
