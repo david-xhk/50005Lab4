@@ -460,12 +460,11 @@ My IP address: `111.65.56.89`
   - This implies that the incoming traffic at the time was probably greater than the outgoing traffic, which led to higher queue delays and inefficient routing paths.
   - This could be because uptrends hosts a traceroute web service that is available globally, which led to high incoming ICMP traffic from active traceroutes around the world.
   
-- For the Amsterdam traceroute, the macOS traceroute was able to reach `87.245.232.123` within 2 hops from `203.208.166.202`.
-  - It took 9 hops for the uptrends traceroute to reach `203.208.178.222` from `87.245.232.122`.
+- For the Amsterdam traceroute, the macOS traceroute was able to reach `87.245.232.123` within 2 hops from `203.208.166.202`, while the uptrends traceroute took 9 hops to reach `203.208.178.222` from `87.245.232.122`.
   - This implies that the outgoing traffic was higher than the incoming traffic at the time.
   - Perhaps this is due to increased usage during the day in Amsterdam, especially because of increased stay-at-home measures in this COVID-19 season.
 
-- For the Tokyo traceroute, the macOS traceroute failed miserably as it was not able to even reach `129.250.*.*`, where the uptrends traceroute passed through at steps 3 to 7.
+- For the Tokyo traceroute, the macOS traceroute failed miserably as it was not able to even reach `129.250.*.*`–where the uptrends traceroute passed through between steps 3 to 7.
   - The macOS traceroute took a long detour to routers in America as seen in the host names **if-ae-2-2.tcore1.pdi-palo-alto.as6453.net** and **if-ae-0-2.tcore1.sv1-santa-clara.as6453.net**.
   - In the process, it incurred long delays of up to 1364.502 ms. This is caused by propagation delay from the packet being sent across the Pacific Ocean.
   - This behavior is likely caused by some misconfigured routers at `203.208.*.*`, which were unable to find `129.250.*.*` successfully.
