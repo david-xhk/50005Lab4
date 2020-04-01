@@ -1,6 +1,4 @@
-# NS Lab 1
-
-*Internet Routes and Measurement of Round Trip Times*
+# NS Lab 1: *Internet Routes and Measurement of Round Trip Times*
 
 
 ### Overview
